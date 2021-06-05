@@ -1,4 +1,4 @@
-# This is a simple calculater program to add, subtract, multiply or divide numbers. 
+# This is a simple calculater program to add, subtract, multiply or divide numbers.
 # This  adds two numbers
 def add(x, y):
     return x + y
@@ -13,28 +13,28 @@ def divide(x, y):
     return x / y
 # Player's options for input.
 print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("Add")
+print("Subtract")
+print("Multiply")
+print("Divide")
 while True:
 # Take input from the user
     choice = input("Enter choice:")
 # Check if choice is one of the four options
-    if choice in ('1', '2', '3', '4'):
+    if choice in ('Add', 'Subtract', 'Multiply', 'Divide'):
         num1 = int(input("Enter first number: "))
         num2 = int(input("Enter second number: "))
 
-        if choice == '1':
+        if choice == 'Add':
             print(num1, "+", num2, "=", add(num1, num2))
 
-        elif choice == '2':
+        elif choice == 'Subtract':
             print(num1, "-", num2, "=", subtract(num1, num2))
 
-        elif choice == '3':
+        elif choice == 'Multiply':
             print(num1, "*", num2, "=", multiply(num1, num2))
 
-        elif choice == '4':
+        elif choice == 'Divide':
             print(num1, "/", num2, "=", divide(num1, num2))
         break
     else:
