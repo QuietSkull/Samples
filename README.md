@@ -1,1 +1,1 @@
-# Samples
+# Samples of simple python programs. 
