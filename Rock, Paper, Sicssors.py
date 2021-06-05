@@ -22,7 +22,7 @@ while True:
     #This section details if the player picks "Paper."
     elif player == "Paper": #input
         if computer == "Scissors": #input
-            print("Sorry, You lose!", computer, "Sicssors cuts", player)
+            print("Sorry, You lose!", computer, "Scissors cuts", player)
             cpuScore+=1 # The computer gains one point.
         else:
             print("Wow, You win!", player, "You totally cover the", computer)
