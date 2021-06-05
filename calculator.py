@@ -11,6 +11,7 @@ def multiply(x, y):
 # This function divides two numbers
 def divide(x, y):
     return x / y
+# Player's options
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
